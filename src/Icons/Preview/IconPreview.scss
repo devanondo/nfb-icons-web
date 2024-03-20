@@ -1,0 +1,38 @@
+.icon__preview {
+    max-width: 1440px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    // justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .icon__card {
+        padding: 10px 15px;
+        border-radius: 5px;
+        display: flex;
+        max-width: 140px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        transition: 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateY(-2px);
+        }
+
+        .title {
+            font-family: 'Titillium Web';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            color: #797e8c;
+        }
+    }
+}
