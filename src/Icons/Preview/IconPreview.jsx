@@ -135,10 +135,23 @@ import {
   SwimFF,
   TaudFF,
   ScreenFF,
+  Accastillage,
+  ForSale,
+  HeartFF,
+  MechanicFF,
+  MetoF,
+  SeeAllF,
 } from "../Icon/EquipmentIcons/Icons";
 
 const IconPreview = () => {
   const icons = [
+    { title: "SeeAllF", icon: <SeeAllF height={30} width={30} /> },
+    { title: "MetoF", icon: <MetoF height={30} width={30} /> },
+    { title: "MechanicFF", icon: <MechanicFF height={30} width={30} /> },
+    { title: "HeartFF", icon: <HeartFF height={30} width={30} /> },
+    { title: "ForSale", icon: <ForSale height={30} width={30} /> },
+    { title: "Accastillage", icon: <Accastillage height={30} width={30} /> },
+
     { title: "BiminiFF", icon: <BiminiFF height={30} width={30} /> },
     { title: "BossoirFF", icon: <BossoirFF height={30} width={30} /> },
     { title: "BridgeFF", icon: <BridgeFF height={30} width={30} /> },
